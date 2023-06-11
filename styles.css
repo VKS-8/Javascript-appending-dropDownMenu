@@ -1,0 +1,53 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ height: 100%;
+ width: 100%;
+ padding: 4rem;
+ background: lightseagreen;
+}
+
+h1,
+h2,
+h3,
+input,
+button,
+select {
+ padding: 2rem;
+ border-radius: 30px;
+}
+
+h1,
+h2,
+h3 {
+ background: lightcoral;
+ margin: 2rem 0;
+}
+
+input {
+ width: 65%;
+ margin: 0 2rem 2rem 0;
+}
+
+ul,
+#appendedElements {
+ text-decoration: none;
+ list-style-type: none;
+ padding-left: 2rem;
+ color: rgb(245, 245, 245);
+ font-size: 3rem;
+}
+
+select {
+ width: 100%;
+}
+
+input,
+button,
+select {
+ font-size: 1.5rem;
+}
